@@ -1,0 +1,116 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    id 'dagger.hilt.android.plugin'
+}
+
+android {
+    compileSdk 31
+
+    defaultConfig {
+        applicationId "com.rana.bitapp"
+        minSdk 21
+        targetSdk 31
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        vectorDrawables {
+            useSupportLibrary true
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+        useIR = true
+    }
+    buildFeatures {
+        compose true
+    }
+    composeOptions {
+        kotlinCompilerExtensionVersion Versions.compose_version
+        kotlinCompilerVersion Versions.kotlin
+    }
+    packagingOptions {
+        resources {
+            excludes += '/META-INF/{AL2.0,LGPL2.1}'
+        }
+    }
+}
+
+dependencies {
+
+    implementation(Libs.composeUI)
+    implementation(Libs.composeMaterial)
+    implementation(Libs.composeUIToolingPreview)
+    implementation(Libs.composeUITooling)
+
+    implementation(Libs.hiltJetpackCompose)
+    implementation(Libs.activityCompose)
+    implementation(Libs.lifecycleViewModelCompose)
+    implementation(Libs.composeNavigation)
+    implementation(Libs.hiltNavCompose)
+
+    implementation(Libs.runtimeKtx)
+
+    implementation(Libs.scarlet)
+    implementation(Libs.scarletOkHttp)
+    implementation(Libs.scarletLifecycle)
+    implementation(Libs.scarletAdapterMoshi)
+    implementation(Libs.scarletAdapterCoroutines)
+    implementation(Libs.moshi)
+    implementation(Libs.moshiCodegen)
+
+    implementation(Libs.kotlinStdLib)
+    implementation(Libs.kotlinReflect)
+    implementation(Libs.appCompat)
+    implementation(Libs.constraintLayout)
+    implementation(Libs.viewpager2)
+
+    implementation(Libs.corektx)
+
+    implementation(Libs.navigationFragmentKtx)
+    implementation(Libs.navigationUiKtx)
+
+    implementation(Libs.material)
+    implementation(Libs.roomRuntime)
+    implementation(Libs.roomKtx)
+    kapt(Libs.roomCompiler)
+
+    implementation(Libs.coroutinesCore)
+    implementation(Libs.coroutinesAndroid)
+
+    implementation(Libs.hilt)
+    implementation(Libs.hiltJetpack)
+    kapt(Libs.hiltCompiler)
+    kapt(Libs.hiltJetpackCompiler)
+
+    implementation(Libs.retrofit)
+    implementation(Libs.retrofitOkHttp)
+    implementation(Libs.retrofitGson)
+    implementation(Libs.retrofitLogInterceptor)
+
+    implementation(Libs.glide)
+    kapt(Libs.glideCompiler)
+
+    testImplementation(Libs.mockito)
+    testImplementation(Libs.mockitoKotlin)
+    testImplementation(Libs.coreTesting)
+    testImplementation(Libs.junit)
+    testImplementation(Libs.truth)
+    testImplementation(Libs.coroutinesTest)
+    androidTestImplementation(Libs.testRunner)
+    androidTestImplementation(Libs.espresso)
+
+}
