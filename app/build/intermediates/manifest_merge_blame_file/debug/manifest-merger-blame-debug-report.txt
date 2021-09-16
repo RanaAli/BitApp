@@ -1,0 +1,111 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.rana.bitapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:5:5-67
+11-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:5:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->[com.tinder.scarlet:lifecycle-android:0.1.12] C:\Users\ranaa\.gradle\caches\transforms-3\e5e0df9f27f1c42df3ca5c9bc73a1364\transformed\jetified-lifecycle-android-0.1.12\AndroidManifest.xml:12:5-79
+12-->[com.tinder.scarlet:lifecycle-android:0.1.12] C:\Users\ranaa\.gradle\caches\transforms-3\e5e0df9f27f1c42df3ca5c9bc73a1364\transformed\jetified-lifecycle-android-0.1.12\AndroidManifest.xml:12:22-76
+13
+14    <application
+14-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:7:5-26:19
+15        android:name="com.rana.bitapp.BitApplication"
+15-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:9:9-54
+16        android:allowBackup="true"
+16-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:10:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.5.0] C:\Users\ranaa\.gradle\caches\transforms-3\1c6f1792a140ccc91031e7de8fe1c97c\transformed\core-1.5.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@mipmap/ic_launcher"
+19-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:11:9-43
+20        android:label="@string/app_name"
+20-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:12:9-41
+21        android:roundIcon="@mipmap/ic_launcher_round"
+21-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:13:9-54
+22        android:supportsRtl="true"
+22-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:14:9-35
+23        android:theme="@style/Theme.BitApp"
+23-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:15:9-44
+24        android:usesCleartextTraffic="true" >
+24-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:8:9-44
+25        <activity
+25-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:16:9-25:20
+26            android:name="com.rana.bitapp.presentation.MainActivity"
+26-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:17:13-69
+27            android:exported="true"
+27-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:18:13-36
+28            android:label="@string/app_name" >
+28-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:19:13-45
+29            <intent-filter>
+29-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:20:13-24:29
+30                <action android:name="android.intent.action.MAIN" />
+30-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:21:17-69
+30-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:21:25-66
+31
+32                <category android:name="android.intent.category.LAUNCHER" />
+32-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:23:17-77
+32-->C:\Users\ranaa\AndroidStudioProjects\Others\BitApp\app\src\main\AndroidManifest.xml:23:27-74
+33            </intent-filter>
+34        </activity>
+35        <activity
+35-->[androidx.compose.ui:ui-tooling:1.0.2] C:\Users\ranaa\.gradle\caches\transforms-3\ed07b8a3288c10ec505696f0b2d54e3c\transformed\jetified-ui-tooling-1.0.2\AndroidManifest.xml:25:9-27:39
+36            android:name="androidx.compose.ui.tooling.PreviewActivity"
+36-->[androidx.compose.ui:ui-tooling:1.0.2] C:\Users\ranaa\.gradle\caches\transforms-3\ed07b8a3288c10ec505696f0b2d54e3c\transformed\jetified-ui-tooling-1.0.2\AndroidManifest.xml:26:13-71
+37            android:exported="true" />
+37-->[androidx.compose.ui:ui-tooling:1.0.2] C:\Users\ranaa\.gradle\caches\transforms-3\ed07b8a3288c10ec505696f0b2d54e3c\transformed\jetified-ui-tooling-1.0.2\AndroidManifest.xml:27:13-36
+38
+39        <service
+39-->[androidx.room:room-runtime:2.2.3] C:\Users\ranaa\.gradle\caches\transforms-3\7b4dba9f93a41cc92e43d35bc03fa80a\transformed\room-runtime-2.2.3\AndroidManifest.xml:25:9-27:40
+40            android:name="androidx.room.MultiInstanceInvalidationService"
+40-->[androidx.room:room-runtime:2.2.3] C:\Users\ranaa\.gradle\caches\transforms-3\7b4dba9f93a41cc92e43d35bc03fa80a\transformed\room-runtime-2.2.3\AndroidManifest.xml:26:13-74
+41            android:exported="false" />
+41-->[androidx.room:room-runtime:2.2.3] C:\Users\ranaa\.gradle\caches\transforms-3\7b4dba9f93a41cc92e43d35bc03fa80a\transformed\room-runtime-2.2.3\AndroidManifest.xml:27:13-37
+42
+43        <provider
+43-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\ranaa\.gradle\caches\transforms-3\755fc89289f5fa9f62b715308272415b\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:26:9-34:20
+44            android:name="androidx.startup.InitializationProvider"
+44-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\ranaa\.gradle\caches\transforms-3\755fc89289f5fa9f62b715308272415b\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:27:13-67
+45            android:authorities="com.rana.bitapp.androidx-startup"
+45-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\ranaa\.gradle\caches\transforms-3\755fc89289f5fa9f62b715308272415b\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:28:13-68
+46            android:exported="false" >
+46-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\ranaa\.gradle\caches\transforms-3\755fc89289f5fa9f62b715308272415b\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:29:13-37
+47            <meta-data
+47-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\ranaa\.gradle\caches\transforms-3\755fc89289f5fa9f62b715308272415b\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:31:13-33:52
+48                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+48-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\ranaa\.gradle\caches\transforms-3\755fc89289f5fa9f62b715308272415b\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:32:17-85
+49                android:value="androidx.startup" />
+49-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\ranaa\.gradle\caches\transforms-3\755fc89289f5fa9f62b715308272415b\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:33:17-49
+50        </provider>
+51
+52        <receiver
+52-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\ranaa\.gradle\caches\transforms-3\755fc89289f5fa9f62b715308272415b\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:36:9-45:20
+53            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+53-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\ranaa\.gradle\caches\transforms-3\755fc89289f5fa9f62b715308272415b\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:37:13-76
+54            android:directBootAware="false"
+54-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\ranaa\.gradle\caches\transforms-3\755fc89289f5fa9f62b715308272415b\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:38:13-44
+55            android:enabled="true"
+55-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\ranaa\.gradle\caches\transforms-3\755fc89289f5fa9f62b715308272415b\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:39:13-35
+56            android:exported="true"
+56-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\ranaa\.gradle\caches\transforms-3\755fc89289f5fa9f62b715308272415b\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:40:13-36
+57            android:permission="android.permission.DUMP" >
+57-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\ranaa\.gradle\caches\transforms-3\755fc89289f5fa9f62b715308272415b\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:41:13-57
+58            <intent-filter>
+58-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\ranaa\.gradle\caches\transforms-3\755fc89289f5fa9f62b715308272415b\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:42:13-44:29
+59                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+59-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\ranaa\.gradle\caches\transforms-3\755fc89289f5fa9f62b715308272415b\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:43:17-91
+59-->[androidx.profileinstaller:profileinstaller:1.0.2] C:\Users\ranaa\.gradle\caches\transforms-3\755fc89289f5fa9f62b715308272415b\transformed\jetified-profileinstaller-1.0.2\AndroidManifest.xml:43:25-88
+60            </intent-filter>
+61        </receiver>
+62    </application>
+63
+64</manifest>

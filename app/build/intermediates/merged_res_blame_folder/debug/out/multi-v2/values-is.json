@@ -1,0 +1,77 @@
+{
+    "logs": [
+        {
+            "outputFile": "C:\\Users\\ranaa\\AndroidStudioProjects\\Others\\BitApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-is\\values-is.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ranaa\\.gradle\\caches\\transforms-3\\1c6f1792a140ccc91031e7de8fe1c97c\\transformed\\core-1.5.0\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "42",
+                        "startColumns": "4",
+                        "startOffsets": "3901",
+                        "endColumns": "100",
+                        "endOffsets": "3997"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ranaa\\.gradle\\caches\\transforms-3\\d0fcec7d24b30bf3e29794919840d1b6\\transformed\\jetified-ui-1.0.2\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,196,277,376,456,552,641,723,791,859,929,997",
+                        "endColumns": "90,80,98,79,95,88,81,67,67,69,67,119",
+                        "endOffsets": "191,272,371,451,547,636,718,786,854,924,992,1112"
+                    },
+                    "to": {
+                        "startLines": "29,30,31,32,33,36,37,38,39,41,43,44",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "2779,2870,2951,3050,3130,3443,3532,3614,3682,3831,4002,4070",
+                        "endColumns": "90,80,98,79,95,88,81,67,67,69,67,119",
+                        "endOffsets": "2865,2946,3045,3125,3221,3527,3609,3677,3745,3896,4065,4185"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ranaa\\.gradle\\caches\\transforms-3\\6bf7d1f1f3096b9f67c8c4b3265bc90c\\transformed\\appcompat-1.2.0\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,29",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,205,302,414,499,600,714,795,874,965,1058,1151,1245,1351,1444,1539,1634,1725,1819,1900,2010,2117,2214,2323,2423,2526,2681,2779",
+                        "endColumns": "99,96,111,84,100,113,80,78,90,92,92,93,105,92,94,94,90,93,80,109,106,96,108,99,102,154,97,80",
+                        "endOffsets": "200,297,409,494,595,709,790,869,960,1053,1146,1240,1346,1439,1534,1629,1720,1814,1895,2005,2112,2209,2318,2418,2521,2676,2774,2855"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20,21,22,23,24,25,26,27,28,40",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,205,302,414,499,600,714,795,874,965,1058,1151,1245,1351,1444,1539,1634,1725,1819,1900,2010,2117,2214,2323,2423,2526,2681,3750",
+                        "endColumns": "99,96,111,84,100,113,80,78,90,92,92,93,105,92,94,94,90,93,80,109,106,96,108,99,102,154,97,80",
+                        "endOffsets": "200,297,409,494,595,709,790,869,960,1053,1146,1240,1346,1439,1534,1629,1720,1814,1895,2005,2112,2209,2318,2418,2521,2676,2774,3826"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\ranaa\\.gradle\\caches\\transforms-3\\a5a19201e6325e2428ec4bb877402ba2\\transformed\\navigation-ui-2.2.0\\res\\values-is\\values-is.xml",
+                    "from": {
+                        "startLines": "2,3",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,158",
+                        "endColumns": "102,113",
+                        "endOffsets": "153,267"
+                    },
+                    "to": {
+                        "startLines": "34,35",
+                        "startColumns": "4,4",
+                        "startOffsets": "3226,3329",
+                        "endColumns": "102,113",
+                        "endOffsets": "3324,3438"
+                    }
+                }
+            ]
+        }
+    ]
+}
