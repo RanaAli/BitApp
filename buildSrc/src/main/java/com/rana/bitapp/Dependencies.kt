@@ -1,6 +1,6 @@
 object Versions {
-    const val androidGradle = "7.0.2"
-    const val kotlinGradle = "1.5.21"
+    const val androidGradle = "7.1.3"
+    const val kotlinGradle = "1.6.21"
 
     const val kotlin = "1.4.31"
     const val constraintLayout = "2.0.0-beta4"
